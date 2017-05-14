@@ -1,0 +1,69 @@
+{
+  "name": "dh-c",
+  "version": "1.0.0",
+  "description": "screen component",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run storybook",
+    "build": "npm run build-storybook",
+    "test": "npm run test-storybook",
+    "lint": "eslint src",
+    "lib": "rm -rf dist && gulp",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test-storybook": "storyshots"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouchs/screen.git"
+  },
+  "keywords": [
+    "datahunter",
+    "react",
+    "screen",
+    "component"
+  ],
+  "author": "jimberton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouchs/screen/issues"
+  },
+  "homepage": "https://github.com/ouchs/screen/#readme",
+  "dependencies": {
+    "is_js": "^0.9.0",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.4.0",
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-options": "^1.0.2",
+    "@kadira/storyshots": "^2.1.0",
+    "autoprefixer": "^6.7.6",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "child-process-promise": "^2.2.1",
+    "css-animation": "^1.3.2",
+    "css-loader": "^0.26.4",
+    "getstorybook": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.3",
+    "storybook-readme": "^2.0.2",
+    "style-loader": "^0.13.2"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
